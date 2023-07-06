@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-wrap justify-between border-b-4 pt-2 pb-2">
+  <div class="flex flex-wrap justify-between border-b-4 pt-2 pb-2 p-4">
     <div
       class="flex flex-wrap justify-center items-center w-[80px] max-sm:w-[40px] max-sm:m-4">
       <nuxt-link to="/"> <img src="/images/logo.png" /></nuxt-link>
