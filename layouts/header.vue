@@ -9,17 +9,17 @@
       <nuxt-link
         to="/"
         class="hover:rounded-2xl hover:bg-[#7ED957] hover:text-white pt-2 pb-2 pl-6 pr-6"
-        >Home</nuxt-link
+        >{{$t("home")}}</nuxt-link
       >
       <nuxt-link
         to="/about"
         class="hover:rounded-2xl hover:bg-[#7ED957] hover:text-white pt-2 pb-2 pl-6 pr-6"
-        >About</nuxt-link
+        >{{$t("about")}}</nuxt-link
       >
       <nuxt-link
         to="/project"
         class="max-sm:border-2 max-sm:p-2 border-4 rounded-3xl border-[#7ED957] hover:border-2 hover:rounded-2xl hover:bg-[#7ED957] hover:text-white pt-2 pb-2 pl-6 pr-6"
-        >Project</nuxt-link
+        >{{$t("project")}}</nuxt-link
       >
     </div>
   </div>
