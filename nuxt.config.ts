@@ -1,33 +1,40 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ["@nuxt/image", "nuxt-icon", "@nuxtjs/color-mode", "@nuxtjs/i18n"],
-  
-  i18n: {
-    
-    lazy: true,
-    langDir: "locales",
-    strategy: "prefix_except_default",
-    locales: [
+  modules: [
+    "@nuxt/image",
+    "nuxt-icon",
+    "@nuxtjs/color-mode",
+    [
+      "@nuxtjs/i18n",
       {
-        code: "en-US",
-        iso: "en-US",
-        file: "en-US.json",
+        i18n: {
+          lazy: true,
+          langDir: "locales",
+          strategy: "prefix_except_default",
+          locales: [
+            {
+              code: "en-US",
+              iso: "en-US",
+              file: "en-US.json",
 
-        name: "English(US)",
-        moment: "en",
-      },
-      {
-        code: "kh-KH",
-        iso: "kh-KH",
-        file: "kh-KH.json",
+              name: "English(US)",
+              moment: "en",
+            },
+            {
+              code: "kh-KH",
+              iso: "kh-KH",
+              file: "kh-KH.json",
 
-        name: "ខេមរភាសា",
-        moment: "kh",
+              name: "ខេមរភាសា",
+              moment: "kh",
+            },
+          ],
+          defaultLocale: "en-US",
+          vueI18n: "en-US",
+        },
       },
     ],
-    defaultLocale: "en-US",
-    vueI18n: "en-US"
-  },
+  ],
   colorMode: {
     classSuffix: "",
   },
