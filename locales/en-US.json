@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "greet": "Hellooo",
   "home": "Home",
@@ -5,3 +6,6 @@
   "project": "Project",
   "name": "Heng Chomroeun"
 }
+=======
+{ "greet": "Hellooo", "home": "Home", "about": "About", "project": "Project" }
+>>>>>>> b7782f20ad8a605b7d5910a88714407103b3585c
