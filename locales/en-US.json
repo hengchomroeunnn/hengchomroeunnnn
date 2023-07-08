@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 {
   "greet": "Hellooo",
   "home": "Home",
@@ -9,3 +10,6 @@
 =======
 { "greet": "Hellooo", "home": "Home", "about": "About", "project": "Project" }
 >>>>>>> b7782f20ad8a605b7d5910a88714407103b3585c
+=======
+{ "greet": "Hellooo" }
+>>>>>>> parent of 63a876b (localePath)
