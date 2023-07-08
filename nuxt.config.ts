@@ -48,12 +48,12 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      title: "JR's Portfolio",
+      title: "JR's Creative Portfolio Showcase: Unleashing Artistic Talents",
       meta: [
         {
           name: "description",
           content:
-            "Discover the best of Heng Chomroeun's portfolio on our website! As a web designer, we provide valuable resources and services to help businesses succeed. Explore our website for insightful blog posts, relevant resources, and more. Let's collaborate to take your online presence to the next level!",
+            "Explore Heng Chomroeun's portfolio! We offer web design services and valuable resources to boost business success.",
         },
       ],
       link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
