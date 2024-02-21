@@ -53,3 +53,4 @@
     </div>
   </div>
 </template>
+<script defer data-domain="hengchomroeun.com" src="https://plausible.io/js/script.js"></script>
